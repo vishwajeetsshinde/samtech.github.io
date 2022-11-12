@@ -4,18 +4,18 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 14 Oct, 2022, 11:36:58 AM
+    Created on : 16 Oct, 2022, 6:28:35 PM
     Author     : Abhinandan Shinde
 */
-
+*{
+    margin:0;
+    padding:0; 
+}
 body{
-    background-image: url("i5.jpg");
+    background-image: url("home4.jpg");
     background-size: 100% 100%;
     width: 100%;
-    height: 828px;
-    background-position:center;
-    background-repeat: no-repeat;
-    
+    height: 646px;
 
 }
 .bgimage{
@@ -27,12 +27,12 @@ body{
 }
 .tr1{
     background-color: grey;
-    width: 400px;
-    margin-top: 50px;
-    padding-top: 5px; 
-    height: 500px;
+    width: 600px;
+    margin-top: 100px;
+    padding-top: 50px; 
+    height: 250px;
     box-shadow:0 0 10px #000;
-    border-top-left-radius:50px;
+        border-top-left-radius:50px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
     border-bottom-right-radius:50px;
@@ -40,11 +40,11 @@ body{
 td{
     padding: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 input{
-    width: 150px;
-    padding: 5px 5px;
+    width: 200px;
+    padding: 7px 7px;
     border-top-left-radius:50px;
     border-top-right-radius:50px;
     border-bottom-left-radius:50px;
@@ -54,7 +54,7 @@ input{
     font-weight: bold;
 }
 button{
-    margin-top: 50px;
+    margin-top: 40px;
     width: 120px;
     height: 50px;
     border-top-left-radius:50px;
@@ -67,3 +67,4 @@ button{
     font-size: 20px;
     font-weight: bold;
 }
+

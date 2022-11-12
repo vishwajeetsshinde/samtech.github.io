@@ -1,0 +1,114 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Oct, 2022, 10:32:26 PM
+    Author     : Abhinandan Shinde
+*/
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url('home2.jpg');
+	background-size:100% 100%;
+	background-position:center;
+	width:100%;
+	height:1000px;
+        background-attachment: fixed;
+}
+.login{
+	/*border-top-left-radius:50px;
+	border-top-right-radius:50px;
+	border-bottom-left-radius:50px;
+	border-bottom-right-radius:50px;*/
+        background-color: rgba(0,0,0,0.5);
+	background-color:white;
+	height:900px;
+	width:400px;
+	box-shadow:0 0 10px #000;
+	margin-top:100px;
+	margin-left:500px;
+	padding:0px 50px;
+	padding-top:20px;
+        font-family:'Montserrat',sans-serif;
+        
+}
+input{
+	font-family:'Montserrat',sans-serif;
+	margin:10px 10px;
+	width:250px;
+	height:40px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	padding:1px;
+        border: solid rgba(0,0,0,0.5);
+        font-family:'Montserrat',sans-serif;
+        
+}
+lable{
+	font-family:'Montserrat',sans-serif;
+	margin:40px;
+	font-weight:bold;
+	width:10px;
+	font-size:20px;
+        color:black;
+        font-family:'Montserrat',sans-serif;
+	
+	
+	
+}
+button{
+	font-family:'Montserrat',sans-serif;
+	background-color:red;
+	width:150px;
+	box-shadow:0 0 5px #000;
+	padding:10px 20px;
+	margin:10px;
+	border:none;
+	color:white;
+	font-size:20px;
+	border-top-left-radius:20px;
+	border-top-right-radius:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+	font-weight:bold;
+        margin-left:130px;	
+}
+h2{
+	font-family:'Montserrat',sans-serif;
+	text-align:center;
+	width:180px;
+	margin-top:-10px;
+	padding:15px;
+	box-shadow:0 0 5px #000;
+	margin-left:95px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+        color:black;
+}
+.link{
+    padding: 20px;
+    font-size: 20px;
+    padding-left: 120px;
+}
+.link{
+    text-decoration: none;
+    color: white;
+    font-family:'Montserrat',sans-serif;
+}
+td{
+    font-weight: bold;
+    text-transform:uppercase;
+    font-family:'Montserrat',sans-serif;
+}
+
+
+
+

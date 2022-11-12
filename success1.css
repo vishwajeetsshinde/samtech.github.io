@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 21 Oct, 2022, 10:32:19 AM
+    Author     : Abhinandan Shinde
+*/
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+    background-position: center;
+    background-image: url("home4.jpg");
+    background-size: 100% 100%;
+    width:100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.menu1{
+	
+	font-family:'Open Sans',sans-serif;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:120px;
+	background-color:green;
+}
+#lmenu{
+	font-size:22px;
+	font-weight:bold;
+	padding-left:100px;
+	width:25%;
+	line-height:120px;
+	color:white;
+	
+}
+#menu1{
+	width:75%;
+}
+#menu ul{
+	list-style:none;
+	margin-left:950px;
+	margin-top:-70px;
+	float:left;
+}
+#menu ul li{
+	font-family:'Open Sans',sans-serif;
+	position:relative;
+	display:inline-block;
+	padding-left:20px;
+	font-size:20px;
+	font-weight:bold;
+        color:white;
+}
+a {
+	color:inherit;
+}
+a:link{
+	text-decoration:none;
+	color:white;
+}
+#menu ul li a:hover{
+	color:orange;
+}
+#menu ul ul{
+	position:absolute;
+	display:none;
+}
+#menu ul li:hover > ul{
+	width:180px;
+	background-color:green;
+	display:block;
+	margin-left:-20px;
+	margin-top:1px;
+	border:-2px solid white;
+	height:150px;
+}
+#menu ul li:hover > ul li{
+	padding-top:10px;
+	font-family:'Open Sans',sans-serif;
+}
